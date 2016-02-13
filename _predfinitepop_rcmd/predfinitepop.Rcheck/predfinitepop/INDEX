@@ -1,0 +1,50 @@
+conteo                  Counts the number of individuals in
+                        \mathcal{S}_j and \widetilde{\mathcal{S}}_j.
+dataref                 Reference data set of a simulated population
+                        segemented in planned and unplanned domains.
+datasample              Data set of a simulated population segemented
+                        in planned and unplanned domains.
+dinvgauss               Inverse Gaussian distribution - Density.
+domnoplan               Finite population inference on unplanned
+                        domains using reference data.
+domnoplan_composicion   Generates Monte Carlo samples from the
+                        predictive distribution for the vector
+                        \boldmath{N}_j across the D unplanned domains
+                        within a given planned domain.
+domnoplan_g0            Finite population inference on unplanned
+                        domains using subjective G_{j0}.
+domnoplan_totalcomp     Simulates Monte Carlo samples from the
+                        predictive distribution of the vector
+                        \boldmath{T}_j across the D unplanned domains
+                        within a given planned domain.
+domplan                 Finite population inference on unplanned
+                        domains using reference data.
+domplan_g0              Finite population inference on unplanned
+                        domains using subjective G_{j0}.
+domplan_total           Monte Carlo simulation of total for a given
+                        planned domain.
+g0_licitacion           Prior elicitation of G_{j0} using reference
+                        data.
+g0_simulacion           Computes Monte Carlo samples from a given
+                        G_{j0}.
+ghat_simulacion         Simulates Monte Carlo samples from \hat{G}_j.
+gstar_simulacion        Generates Monte Carlo samples from the discrete
+                        component of \hat{G}_j
+pesosDP                 Computes the weights associated with the
+                        predictive distribution \hat{G}_j for a given
+                        planned domain j under the Dircihlet processes
+                        prior.
+pinvgauss               Inverse Gaussian distribution - Probability.
+popcomp                 Composition of the simulated population
+                        segemented in planned and unplanned domains.
+poptot                  Totals of the simulated population segemented
+                        in planned and unplanned domains.
+predfinitepop           Predictive Inference on Totals and Averages of
+                        Finite Populations Segmented in Planned and
+                        Unplanned Domains.
+qinvgauss               Inverse Gaussian distribution - Quantile.
+randDirichlet           Simulates samples from the Dirichlet
+                        distribution with (px1) vector parameter alpha.
+rinvgauss               Inverse Gaussian distribution - Simulation.
+unicstar                Identifies the sample ties in \mathcal{S}_j and
+                        computes their associated sample frequencies.

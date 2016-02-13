@@ -1,0 +1,11 @@
+Package: predfinitepop
+Type: Package
+Title: Predictive Inference on Totals and Averages of Finite Populations Segmented in Planned and Unplanned Domains.
+Version: 1.0
+Date: 2014-04-24
+Copyright: Banco de Mexico
+Author: Juan Carlos Martinez-Ovando [aut, cre], Sergio I. Olivares-Guzman [ctb], Adriana Roldan-Rodriguez [aut].
+Maintainer: Juan Carlos Martinez-Ovando <juan.martinez@banxico.org.mx>
+Description: This package computes Bayesian predictive inference on totals and averages of finite populations segmented in planned and unplanned domains. Inference is based on Bayesian nonparametric methods using species-sampling models (specifically the Dirichlet process).
+Acknowledgement: The authors appreciate advice from Pedro Gonzalez-Alegria and Claudia Velazquez-Villegas of Banco de Mexico.
+License: GPL-3
