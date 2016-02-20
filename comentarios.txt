@@ -1,0 +1,23 @@
+---oOo---
+16-02-19
+
+De los artículos de Lee et al (2013) y Mueller & Rodriguez (2009) ['referencias' dentro de GitHub],
+necesitamos revisar:
+a) 	Diferentes especificaciones de actualización de modelos SS, i.e.
+	las p_j(n_n), j=1,...,k_n, y p_{k_n +1}(n_n)
+b) 	En la carpeta [predfinitepop/R] crear una función tipo 'pesosDP.R' para cada uno de los tipos 
+	de SS models que encontremos.
+c)	Modificar en las funciones 'domnoplan.R', 'ghat_simulacion.R' y 'gstar_simulacion.R' la parte
+	donde se llama a 'pesosDP.R', para incluir una variable indicadora del tipo de SS model y del 
+	una variable indicadora para el tipo seleccionado.
+d)	Cada modifiación de funciones debe incluir la actualización del correspondiente archivo '*.Rd'
+	dentro de la carpeta [predfinitepop/man], incluyendo la creación del archivo correspondiente.
+
+Nota: 	- Los manuales para la construcción de paquetes de R están en [rpackages_manual], para 
+		Linux y Windows. (Yo ya estoy trabajando casi exclusivamente con Linux, por cierto).
+		
+		- Las subcarpetas [_predfinitepop_bdm], [_predfinitepop_bdm] y [_predfinitepop_bdm] son 
+		auxiliares, de la construcción previa.
+		
+		- Te recomiendo usar GitHub Desktop en tu computadura, para sincronizar el contenido con
+		el repositorio de GitHub.
